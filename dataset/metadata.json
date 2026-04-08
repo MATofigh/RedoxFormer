@@ -1,0 +1,135 @@
+{
+  "title": "RedoxFormer Dataset: Run-to-Failure Power Density Data for Early-Stage Degradation Detection in Solid Oxide Fuel Cells",
+
+  "description": "This dataset contains experimental run-to-failure time-series measurements collected from accelerated nickel redox-cycling degradation tests on laboratory-scale Solid Oxide Fuel Cells (SOFCs). The dataset includes continuous power density signals sampled at 1 Hz from 10 independent fuel cells operating under diverse conditions. The data were generated to support research in early-stage fault detection, prognostics, and machine learning for energy systems.",
+
+  "dataset_name": "RedoxFormer",
+
+  "version": "1.0",
+
+  "publication_year": 2026,
+
+  "creators": [
+    {
+      "name": "Mohamadali Tofigh",
+      "affiliation": "Mechanical Engineering Department, University of Alberta",
+      "email": "tofigh@ualberta.ca",
+      "orcid": ""
+    },
+    {
+      "name": "Masood Fakouri Hasanabadi",
+      "affiliation": "Mechanical Engineering Department, University of Alberta"
+    },
+    {
+      "name": "Nafiseh Sang Nourpour",
+      "affiliation": "Mechanical Engineering Department, University of Alberta"
+    },
+    {
+      "name": "Amir Reza Hanifi",
+      "affiliation": "Mechanical Engineering Department, University of Alberta"
+    },
+    {
+      "name": "Daniel J. Smith",
+      "affiliation": "Cummins Inc."
+    },
+    {
+      "name": "Mahdi Shahbakhti",
+      "affiliation": "Mechanical Engineering Department, University of Alberta"
+    }
+  ],
+
+  "keywords": [
+    "Solid Oxide Fuel Cell",
+    "fuel cell degradation",
+    "nickel redox cycling",
+    "run-to-failure dataset",
+    "time-series data",
+    "fault detection",
+    "predictive maintenance",
+    "machine learning",
+    "prognostics",
+  ],
+
+  "domain": "Energy Systems",
+
+  "application_area": [
+    "Fault Detection and Diagnosis",
+    "Predictive Maintenance",
+    "Prognostics and Health Monitoring",
+    "Time-Series Analysis",
+    "Machine Learning"
+  ],
+
+  "data_type": "Time-series",
+
+  "measurement_type": "Power density",
+
+  "sampling_frequency": {
+    "value": 1,
+    "unit": "Hz"
+  },
+
+  "units": {
+    "time": "seconds",
+    "power_density": "W/cm^2"
+  },
+
+  "number_of_experiments": 10,
+
+  "number_of_files": 10,
+
+  "file_format": "CSV",
+
+  "columns": [
+    {
+      "name": "Time(Sec)",
+      "description": "Elapsed time from the start of the experiment",
+      "unit": "seconds",
+      "data_type": "integer"
+    },
+    {
+      "name": "P(W/cm2)",
+      "description": "Measured power density of the fuel cell",
+      "unit": "W/cm^2",
+      "data_type": "float"
+    }
+  ],
+
+  "data_characteristics": {
+    "experiment_type": "Accelerated degradation test",
+    "degradation_mechanism": "Nickel redox cycling",
+    "data_structure": "Run-to-failure",
+    "missing_values_expected": false,
+    "noise_filtering_applied": false
+  },
+
+  "system_information": {
+    "system_type": "Solid Oxide Fuel Cell",
+    "operating_conditions": [
+      "Temperature",
+      "Voltage",
+      "Air flow rate",
+      "Hydrogen flow rate",
+      "Redox cycling patterns"
+    ]
+  },
+
+  "related_publication": {
+    "title": "RedoxFormer: A two-stage deep neural diagnosis framework for early-stage degradation in fuel cells via in-situ sensor measurements",
+    "journal": "Applied Energy",
+    "year": 2026,
+    "doi": "10.1016/j.apenergy.2026.127782"
+  },
+
+  "access": "Public",
+
+  "language": "English",
+
+  "repository": "GitHub",
+
+  "contact": {
+    "name": "Mohamadali Tofigh",
+    "email": "tofigh@ualberta.ca",
+    "institution": "University of Alberta"
+  }
+}
